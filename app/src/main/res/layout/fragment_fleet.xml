@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/starship_name"
+        android:hint="@string/starship_name_hint"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/starship_model"
+        android:hint="@string/starship_model_hint"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/starship_manufacturer"
+        android:hint="@string/starship_manufacturer_hint"
+        />
+
+</LinearLayout>
