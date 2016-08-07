@@ -1,4 +1,4 @@
-package com.ninjarobot.abelardo.startfleet;
+package com.ninjarobot.abelardo.startfleet.entities;
 
 import java.util.UUID;
 

@@ -3,13 +3,14 @@ package com.ninjarobot.abelardo.startfleet;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v4.view.LayoutInflaterCompat;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
+
+import com.ninjarobot.abelardo.startfleet.entities.Starship;
 
 /**
  * Created by Abelardo on 27/7/16.
@@ -89,8 +90,6 @@ public class FleetFragment extends Fragment {
             }
         });
     };
-
-
         return view;
     }
 }
